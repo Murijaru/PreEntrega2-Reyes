@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+/*
+#ffddc9 - color del fondo del header
+#d9594c - color del fondo de los botones del header
+#b7b868 - color del fondo de la pagina
+
+*/
+body{
+    background-color: #b7b868;
+}
+header{
+    height: 20rem;
+    background-color: #ffddc9;
+}
+a{
+    text-decoration: none;
+    display: flex;
+}
+.Botones{
+    color: white;
+    background-color: #d9594c;
+    border-radius: 30%;
+    text-decoration: none;
+    font-size: 3rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    border-radius: 50%;
+    background-color: #0000;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 10rem;
+}
+.pasteles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pastel{
+    border-radius: 8%;
+    height: 29rem;
+}
+#pastel2{
+    height: 52rem;
+}
+.titulo{
+    font-size: 5rem;
+    text-decoration: none;
+    color: #d9594c;
+    display: flex;
+    justify-content: center;
+}
