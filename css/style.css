@@ -1,50 +1,60 @@
-*{
+*,*::before,*::after{ 
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 html{
     font-size: 62.5%;
     font-family: 'Allerta Stencil', sans-serif;
+    background-color: #b7b868;
 }
 /*
 #ffddc9 - color del fondo del header
 #d9594c - color del fondo de los botones del header
-#b7b868 - color del fondo de la pagina
-
+#b7b868 - color del fondo de la pagin
 */
-body{
-    background-color: #b7b868;
-}
-header{
-    height: 20rem;
+.container-nav{
     background-color: #ffddc9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    grid-gap: 40px;
 }
 a{
     text-decoration: none;
-    display: flex;
 }
-.Botones{
-    color: white;
+.nav-a-linkbotton{
+    display: flex;
     background-color: #d9594c;
-    border-radius: 30%;
-    text-decoration: none;
-    font-size: 3rem;
-    justify-content: space-around;
-    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+    font-weight: 400;
+    color: white;
+    font-size: 1.8rem;
 }
-.logo{
-    border-radius: 50%;
-    background-color: #0000;
+.nav-a-linkbotton:hover{
+    background-color: #f33e2a;
+    border: 4px solid #d9594c;
+    transition: 0.1s;
 }
-nav{
+.nav-a-linkbotton:focus{
+    background-color: #d9594c;
+    border: 4px solid white;
+    transition: 0.2s;
+}
+.nav-div-a-home{
     display: flex;
-    justify-content: space-around;
-    height: 10rem;
+    margin-top: 35px;
+    width: 150px;
+    border-radius: 50%;
 }
 .pasteles{
     display: flex;
     align-items: center;
     justify-content: center;
+    grid-gap: 60px;
 }
 #pastel{
     border-radius: 8%;
